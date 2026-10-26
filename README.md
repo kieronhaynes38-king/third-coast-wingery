@@ -17,11 +17,11 @@ I use the owner's official menu item names and the supplied $2.50 loaded-fries a
 
 I removed the original exterior rendering, desserts and previous stock-food images from the current website. The homepage uses the new interior concept. The brand copy welcomes everybody and describes nationwide growth as an ambition rather than an existing footprint.
 
-The email `hello@thirdcoast.example` and phone `(504) 555-0136` are demonstration details. Their buttons open an explanatory preview; they do not send email or place calls. Ordering does not accept purchases, payments or personal information. The location and opening date remain unannounced.
+I removed the sample email and phone number. Instagram and TikTok icons open a short coming-soon message until the restaurant supplies its profile URLs. Ordering does not accept purchases, payments or personal information. The location and opening date remain unannounced.
 
 ## Artwork and assistance
 
-The owner supplied the AI interior, lounge, patio/stage and sign concepts (`interior.jpg`, `lounge.jpg`, `stage.jpg`, `sign.jpg`). The five food spreads and diverse group-dining scene were created using OpenAI's built-in image-generation tool on October 25, 2026 with AI assistance. They are illustrative concepts, not actual restaurant, customer or dish photographs. Sauce appearance and the swamp-roll filling are visual interpretations, not finalized recipes. The imagery background is documented here; menu images use a short illustrative-image note without AI labels.
+The owner supplied the AI interior, lounge, patio/stage and sign concepts (`interior.jpg`, `lounge.jpg`, `stage.jpg`, `sign.jpg`). The five food spreads and diverse group-dining scene were created using OpenAI's built-in image-generation tool on October 25, 2026 with AI assistance. They are illustrative concepts, not actual restaurant, customer or dish photographs. Sauce appearance and the swamp-roll filling are visual interpretations, not finalized recipes. The image provenance stays documented here. At the owner’s request, the website has no AI or concept labels; the gallery retains its Mood Board heading.
 
 I used AI assistance for website implementation and document preparation. Anton and DM Sans are included with their font licenses. The small vinyl icon is an SVG/CSS graphic.
 
@@ -35,6 +35,8 @@ I need owner approval for base prices, portions, recipes, final imagery, actual 
 
 No account passwords, domain authorization codes, invoices or customer data belong in this public repository.
 
-I added the additional wing-plate image supplied on October 25, 2026 (`wings-plate.jpg`) alongside the existing seven-flavor spread. I have not independently verified how this supplied image was made.
+I replaced both earlier wing photographs with one new breaded-wing basket image. The supplied wing-plate photo served as the reference; I have not independently verified its origin. I also updated the combo photograph so its wings show breading. Both revised food images were made with the built-in image-generation tool on October 25, 2026.
 
-I use the supplied Third Coast logo sheet in the header and footer. CSS crops its display to the logo region while preserving the original image file.
+I use all three supplied transparent logo PNGs: the wordmark in the header and footer, the striped three in the about section, and the circular record in the navigation drawer. Tight SVG viewports hide the presentation-sheet margins and palette without redrawing the artwork. An inner cream backing keeps the wordmark readable without an artificial outer border.
+
+I revised the headings to “All flavor. No skips.” and “… Holleration in this Wingery.” The tagline is “The Gulf’s got something to say.” Gulf Coast positioning retains the supplied New Orleans and Louisiana references, including Crescent, Buffaleaux, Cat. 5 and Eve’s Bayou.

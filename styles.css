@@ -16,17 +16,23 @@ body{background:var(--navy);color:var(--cream)}.site-header{background:#06162e;b
 @media(max-width:390px){.hero h1{font-size:16vw}.hero-copy>.eyebrow{font-size:7px}.menu-details{padding:21px}.menu-list dt,.menu-list dd{font-size:12px}.section-heading h2{font-size:50px}.coming-intro h2{font-size:42px}.culture-copy h2{font-size:52px}.gallery-grid figcaption{font-size:7px}.hero-visual{height:360px}.nav-content nav span{font-size:24px}}
 @media(min-width:761px){.menu-photo>img{object-fit:contain;min-height:0;background:#06162e}.menu-photo{display:flex;align-items:center}.double-photo{display:flex;align-items:stretch}}
 
-/* Two complementary wing photos: the new plate and the complete flavor lineup. */
-.menu-photo.wings-photos{display:grid;grid-template-rows:390px 230px;gap:2px;align-content:center;background:#06162e}
-.menu-photo.wings-photos>img{width:100%;height:100%;min-height:0;object-fit:contain}
-.menu-photo.wings-photos>img:first-child{object-fit:cover;object-position:center 60%}
-@media(max-width:760px){.menu-photo.wings-photos{grid-template-rows:340px auto}.menu-photo.wings-photos>img:last-child{height:auto;aspect-ratio:1.5}.menu-photo.wings-photos>img:first-child{aspect-ratio:auto}}
-
+/* Supplied transparent logo artwork, shown in tight SVG viewports. */
+.wordmark .brand-logo{display:block;width:272px;line-height:0}
+.brand-logo svg{display:block;width:100%;height:auto;overflow:hidden}
+.hero-copy{justify-content:center}
+.hero h1{font-size:clamp(57px,5.7vw,88px);line-height:1.08}
+.hero h1 em{font-size:1em;white-space:nowrap}
 .brand-catchphrase{display:inline-block;color:var(--yellow);font-size:1.06em;margin-bottom:9px}
-
-/* Display the supplied logo artwork without the surrounding presentation sheet. */
-.wordmark .brand-logo{display:block;position:relative;width:272px;height:auto;aspect-ratio:574/174;overflow:hidden;border-radius:999px;margin:0;background:#fff8e7}
-.wordmark .brand-logo img{position:absolute;width:106.62021%;max-width:none;height:auto;left:-2.43902%;top:-152.87356%}
-@media(max-width:760px){.wordmark .brand-logo{width:205px}.site-header .header-status{font-size:8px;gap:5px}}
-@media(max-width:430px){.site-header{padding-left:18px;gap:12px}.site-header .wordmark .brand-logo{width:174px}.site-header .header-status{font-size:7px;letter-spacing:.6px;gap:4px}.site-header .header-status .status-dot{width:5px;height:5px}}
+#menu-title{font-size:clamp(40px,4.6vw,68px);line-height:1.12}
+.breaded-wings-photo>img{height:100%;min-height:630px;object-fit:cover;object-position:center}
+.culture-brand{display:block;width:88px;height:auto;margin-top:28px;overflow:hidden}
+.drawer-brand{display:block;width:110px;height:110px;margin:26px 0;overflow:hidden}
+.social-icons{display:flex;gap:14px;margin-top:12px}
+.social-link{display:grid;place-items:center;width:48px;height:48px;border:1px solid var(--line);border-radius:50%;background:none;color:var(--cream);transition:background .2s,color .2s}
+.social-link:hover{background:var(--yellow);color:var(--navy)}
+.social-link svg{width:23px;height:23px}
+@media(max-width:760px){.wordmark .brand-logo{width:205px}.site-header .header-status{font-size:8px;gap:5px}.hero h1{font-size:clamp(56px,14.2vw,92px)}#menu-title{font-size:clamp(30px,8.5vw,50px)}.breaded-wings-photo>img{height:auto;min-height:0;aspect-ratio:4/5}.culture-brand{width:76px}.drawer-brand{width:90px;height:90px;margin:20px 0}.social-icons{margin-top:14px}.footer-contact{width:auto}.site-footer .footer-top{gap:22px}}
+@media(max-width:430px){.site-header{padding-left:18px;gap:12px}.site-header .wordmark .brand-logo{width:174px}.site-header .header-status{font-size:7px;letter-spacing:.6px;gap:4px}.site-header .header-status .status-dot{width:5px;height:5px}.section-topline{gap:12px}.menu-section .section-topline .eyebrow{font-size:8px}.menu-section .section-topline .eyebrow:last-child{max-width:150px;text-align:right}}
 @media(max-width:360px){.site-header .wordmark .brand-logo{width:152px}.site-header{padding-left:12px;gap:7px}}
+
+.menu-section .section-topline .eyebrow:last-child{display:block;color:var(--yellow)}
