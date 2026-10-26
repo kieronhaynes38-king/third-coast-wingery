@@ -23,3 +23,10 @@ body{background:var(--navy);color:var(--cream)}.site-header{background:#06162e;b
 @media(max-width:760px){.menu-photo.wings-photos{grid-template-rows:340px auto}.menu-photo.wings-photos>img:last-child{height:auto;aspect-ratio:1.5}.menu-photo.wings-photos>img:first-child{aspect-ratio:auto}}
 
 .brand-catchphrase{display:inline-block;color:var(--yellow);font-size:1.06em;margin-bottom:9px}
+
+/* Display the supplied logo artwork without the surrounding presentation sheet. */
+.wordmark .brand-logo{display:block;position:relative;width:272px;height:auto;aspect-ratio:574/174;overflow:hidden;border-radius:999px;margin:0;background:#fff8e7}
+.wordmark .brand-logo img{position:absolute;width:106.62021%;max-width:none;height:auto;left:-2.43902%;top:-152.87356%}
+@media(max-width:760px){.wordmark .brand-logo{width:205px}.site-header .header-status{font-size:8px;gap:5px}}
+@media(max-width:430px){.site-header{padding-left:18px;gap:12px}.site-header .wordmark .brand-logo{width:174px}.site-header .header-status{font-size:7px;letter-spacing:.6px;gap:4px}.site-header .header-status .status-dot{width:5px;height:5px}}
+@media(max-width:360px){.site-header .wordmark .brand-logo{width:152px}.site-header{padding-left:12px;gap:7px}}

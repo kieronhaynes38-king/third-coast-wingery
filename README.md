@@ -36,3 +36,5 @@ I need owner approval for base prices, portions, recipes, final imagery, actual 
 No account passwords, domain authorization codes, invoices or customer data belong in this public repository.
 
 I added the additional wing-plate image supplied on October 25, 2026 (`wings-plate.jpg`) alongside the existing seven-flavor spread. I have not independently verified how this supplied image was made.
+
+I use the supplied Third Coast logo sheet in the header and footer. CSS crops its display to the logo region while preserving the original image file.
