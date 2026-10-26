@@ -21,7 +21,7 @@ The email `hello@thirdcoast.example` and phone `(504) 555-0136` are demonstratio
 
 ## Artwork and assistance
 
-The owner supplied the AI interior, lounge, patio/stage and sign concepts (`interior.jpg`, `lounge.jpg`, `stage.jpg`, `sign.jpg`). The five food spreads and diverse group-dining scene were created using OpenAI's built-in image-generation tool on October 25, 2026 with AI assistance. They are illustrative concepts, not actual restaurant, customer or dish photographs. Sauce appearance and the swamp-roll filling are visual interpretations, not finalized recipes. The imagery disclosure appears on the site.
+The owner supplied the AI interior, lounge, patio/stage and sign concepts (`interior.jpg`, `lounge.jpg`, `stage.jpg`, `sign.jpg`). The five food spreads and diverse group-dining scene were created using OpenAI's built-in image-generation tool on October 25, 2026 with AI assistance. They are illustrative concepts, not actual restaurant, customer or dish photographs. Sauce appearance and the swamp-roll filling are visual interpretations, not finalized recipes. The imagery background is documented here; menu images use a short illustrative-image note without AI labels.
 
 I used AI assistance for website implementation and document preparation. Anton and DM Sans are included with their font licenses. The small vinyl icon is an SVG/CSS graphic.
 
@@ -34,3 +34,5 @@ The JavaScript syntax check passed. Browser checks covered the menu category but
 I need owner approval for base prices, portions, recipes, final imagery, actual contact details, location, opening hours and online ordering. I will replace the testing contact information and connect real ordering only when the owner is ready.
 
 No account passwords, domain authorization codes, invoices or customer data belong in this public repository.
+
+I added the additional wing-plate image supplied on October 25, 2026 (`wings-plate.jpg`) alongside the existing seven-flavor spread. I have not independently verified how this supplied image was made.
