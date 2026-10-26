@@ -1,37 +1,36 @@
-# Third Coast — A Gulf Coast Wingery
+# Third Coast - website source
 
-My landing-page concept for Third Coast brings together Gulf Coast food, New Orleans culture, and retro music-inspired design. I used the restaurant concept images as the starting point for the blue, orange, cream, and yellow palette.
+I keep the portable Third Coast website here so I can maintain the preview and move it to another host later. The site is plain HTML, CSS and JavaScript with local assets; it has no build step, backend, API key or package dependency.
 
-## What is included
+## Preview and hosting
 
-- A coming-soon banner featuring the supplied storefront concept.
-- A slide-out menu with Take Your Order, Menu, About Us, Contact Us, and Location.
-- Stock food photography and a courtyard section.
-- Responsive layouts for desktop and mobile.
-- Accessible native dialog panels, keyboard dismissal, and reduced-motion support.
+- Live GitHub preview: https://kieronhaynes38-king.github.io/third-coast-wingery/
+- Repository: https://github.com/kieronhaynes38-king/third-coast-wingery
+- I can run `python3 -m http.server 4173` in this folder and open `http://localhost:4173`.
+- GitHub Pages serves `main` from the repository root. `.nojekyll` keeps the static assets intact.
+- On a conventional web host, I can upload `index.html`, `styles.css`, `app.js`, `.nojekyll` and `assets/` to the site's public document root. A GoDaddy hosting plan that supports static files can serve this copy. Domain registration alone is not web hosting.
+- Squarespace uses its own editor and does not directly import this complete layout. I retain this independent source as a migration backup; it is not a full export of Squarespace's editor or platform.
 
-Ordering is a placeholder. The address, opening date, contact details, and final menu have not been confirmed. The site does not collect customer information or process payments.
+## Current preview
 
-## Running the site
+I use the owner's official menu item names and the supplied $2.50 loaded-fries and $3.50 swamp-fries basket upgrades. Base prices and the six-wing serving are proposed samples, not approved retail pricing. The page labels those clearly. Recipes and final portions remain subject to approval.
 
-This is a static HTML, CSS, and JavaScript website with local image and font assets. No build step or dependencies are required.
+I removed the original exterior rendering, desserts and previous stock-food images from the current website. The homepage uses the new interior concept. The brand copy welcomes everybody and describes nationwide growth as an ambition rather than an existing footprint.
 
-```sh
-python3 -m http.server 4173
-```
+The email `hello@thirdcoast.example` and phone `(504) 555-0136` are demonstration details. Their buttons open an explanatory preview; they do not send email or place calls. Ordering does not accept purchases, payments or personal information. The location and opening date remain unannounced.
 
-Open http://localhost:4173 in a browser.
+## Artwork and assistance
 
-For GitHub Pages, select **Deploy from a branch**, choose **main**, and select **/ (root)** in the repository's Pages settings. The `.nojekyll` file allows the static files to be served directly.
+The owner supplied the AI interior, lounge, patio/stage and sign concepts (`interior.jpg`, `lounge.jpg`, `stage.jpg`, `sign.jpg`). The five food spreads and diverse group-dining scene were created using OpenAI's built-in image-generation tool on October 25, 2026 with AI assistance. They are illustrative concepts, not actual restaurant, customer or dish photographs. Sauce appearance and the swamp-roll filling are visual interpretations, not finalized recipes. The imagery disclosure appears on the site.
 
-## Image credits and assistance
+I used AI assistance for website implementation and document preparation. Anton and DM Sans are included with their font licenses. The small vinyl icon is an SVG/CSS graphic.
 
-The storefront and courtyard images are client-provided AI concept renderings. Food photographs are visual inspiration, not photographs of finalized Third Coast menu items:
+## Checks
 
-- [Wings — Mohamed Olwy / Pexels](https://www.pexels.com/photo/delicious-grilled-chicken-wings-with-sides-36750259/)
-- [Shrimp sandwich — Said Khodjaev / Pexels](https://www.pexels.com/photo/frying-shrimp-po-boy-16694957/)
-- [Beignets — Keesha’s Kitchen / Unsplash](https://unsplash.com/photos/a-group-of-pastries-on-a-rack-UB17f-nMiLs)
+The JavaScript syntax check passed. Browser checks covered the menu category buttons, arrow-key category changes, the navigation drawer, ordering and contact preview messages, Escape dismissal and focus return. Desktop and mobile layouts were reviewed before deployment.
 
-Anton and DM Sans font license files are included in `assets/`.
+## Before opening
 
-I developed this concept with AI assistance for the implementation, copy, asset sourcing, and browser checks. Desktop and mobile layouts, image loading, menu navigation, and keyboard dismissal were checked during development.
+I need owner approval for base prices, portions, recipes, final imagery, actual contact details, location, opening hours and online ordering. I will replace the testing contact information and connect real ordering only when the owner is ready.
+
+No account passwords, domain authorization codes, invoices or customer data belong in this public repository.

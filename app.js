@@ -48,3 +48,41 @@ dialogs.forEach(dialog => {
     });
   });
 });
+
+// Progressive enhancement: every menu category remains visible without JavaScript.
+const tabList = document.querySelector('.menu-tabs');
+const tabs = [...tabList.querySelectorAll('a')];
+const panels = tabs.map(tab => document.querySelector(tab.getAttribute('href')));
+tabList.setAttribute('role', 'tablist');
+function selectMenuTab(index, focus = false) {
+  tabs.forEach((tab, i) => {
+    const selected = i === index;
+    tab.setAttribute('aria-selected', String(selected));
+    tab.tabIndex = selected ? 0 : -1;
+    panels[i].hidden = !selected;
+  });
+  if (focus) tabs[index].focus();
+}
+tabs.forEach((tab, i) => {
+  tab.id = `menu-tab-${i}`;
+  tab.setAttribute('role', 'tab');
+  tab.setAttribute('aria-controls', panels[i].id);
+  panels[i].setAttribute('role', 'tabpanel');
+  panels[i].setAttribute('aria-labelledby', tab.id);
+  panels[i].tabIndex = 0;
+  tab.addEventListener('click', event => { event.preventDefault(); selectMenuTab(i); });
+  tab.addEventListener('keydown', event => {
+    let next;
+    if (event.key === 'ArrowRight') next = (i + 1) % tabs.length;
+    if (event.key === 'ArrowLeft') next = (i - 1 + tabs.length) % tabs.length;
+    if (event.key === 'Home') next = 0;
+    if (event.key === 'End') next = tabs.length - 1;
+    if (next !== undefined) { event.preventDefault(); selectMenuTab(next, true); }
+  });
+});
+const initialPanel = panels.findIndex(panel => `#${panel.id}` === location.hash);
+selectMenuTab(initialPanel < 0 ? 0 : initialPanel);
+window.addEventListener('hashchange', () => {
+  const index = panels.findIndex(panel => `#${panel.id}` === location.hash);
+  if (index >= 0) selectMenuTab(index);
+});
